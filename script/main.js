@@ -1,6 +1,6 @@
 // Home
 document.getElementById("addMoney").addEventListener("click", function () {
-  window.location.href = "addMoney.html";
+  window.location.href = "./script/addMoney.js";
 });
 document.getElementById("saving").addEventListener("click", function () {
   window.location.href = "saving.html";
