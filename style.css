@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(51, 6, 71);
+}
+.pokirer {
+  font-size: 85px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+.balance {
+  width: 200px;
+  text-align: center;
+  color: blueviolet;
+  background-color: blueviolet;
+  padding: 15px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.balance:hover {
+  color: #fff;
+}
+.img-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid gray;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+.img:hover {
+  transition: 0.5s;
+}
+/* =================================== */
+.h1 {
+  font-size: 70px;
+}
+h1 {
+  color: rgb(252, 0, 210);
+}
+h2 {
+  font-size: 35px;
+  color: rgb(55, 0, 255);
+  margin-bottom: 10px;
+}
+h3 {
+  color: #fff;
+}
+.inputDiv {
+  color: #fff;
+  background-color: violet;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  align-content: center;
+}
+.input-field {
+  font-weight: bold;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+}
+.button {
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: rgb(75, 75, 255);
+  cursor: pointer;
+}
+.button:hover {
+  color: #fff;
+  background-color: blueviolet;
+}
+
+.ttt {
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  background-color: rgba(140, 0, 255, 0.264);
+  padding: 70px;
+  width: 500px;
+  height: 250px;
+  border-radius: 20px;
+}
+.mar {
+  margin-top: 10px;
+}
+.loginBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 140px;
+  height: 30px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #fff;
+  background-color: rgba(25, 156, 232, 0.404);
+  transition: 0.5s;
+}
