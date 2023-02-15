@@ -5,7 +5,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
   let getPassword = document.getElementById("password-field");
   let getPasswordValue = getPassword.value;
   getPassword.value = "";
-  if (getEmailValue === "email@gmail.com" && getPasswordValue === "Password") {
+  if (getEmailValue === "Email" && getPasswordValue === "Password") {
     window.location.href = "../atherPages/main.html";
   } else {
     alert("please give me correct information");

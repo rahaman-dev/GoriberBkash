@@ -11,9 +11,9 @@ document.getElementById("nextButton").addEventListener("click", function () {
     getFirstNameValue === "First Name" &&
     getLastNameValue === "Last Name" &&
     getEmailValue === "Email" &&
-    getPasswordValue === "password"
+    getPasswordValue === "Password"
   ) {
-    window.location.href = "atherPages/sinUpTwo.html";
+    window.location.href = "./atherPages/sinUpTwo.html";
   } else {
     alert("Please Give me current information");
   }
